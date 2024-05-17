@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+
+    <div id="cont">
+        <h1>Tip Calculator</h1>
+        
+        <hr>
+        <label>Total Bill</label><br>
+        <input class="in_text" onkeyup='calculateBill()' id='billInput' type="text"><br>
+        <label>Tip</label><br>
+        <input class="in_text" onkeyup='calculateBill()' type='text' id='tipInput'><br><br>
+        <button onclick='increasePeople()'>+</button>
+            <span id='numOfPeople'>1</span>
+        <button onclick='decreasePeople()'>-</button>    
+        <p id="persons">
+            total in person = <span id="perPersonTotal">0.00</span>
+        </p>
+    </div>
+    <script src="tipCalculator.js">
+        
+    </script>
+</body>
+</html>

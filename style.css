@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body {
+    background-color: #0b7a1d;
+}
+h1 {
+    color: white;
+    margin: 10px;
+}
+#cont {
+    background-color: #16b338;
+    display: block;
+    margin: 25vh auto;
+    width: 70%;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px 0px rgba(0,0,0,0.12)
+}
+hr{
+    margin: 10px auto
+}
+label{
+    color: white;
+    font-size: 20px;
+    margin: 20px 15px;
+}
+input[type=text] {
+    border: 3px solid  #0b7a1d;
+    border-radius: 25px;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: whitesmoke;
+    margin: 5px 0 10px;
+}
+input[type=text]:focus {
+    border: #0b7a1d;
+    padding-left: 20px;
+    border:  none;
+    outline: none;
+}
+button {
+    transition-duration: 0.4s;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: ;
+    width: 50px;
+    margin: 4px 2px; 
+    color: #0b7a1d;
+    border-radius: 50%;
+}
+button:hover {
+    border: 2px white solid;
+    color: white;
+    background-color: #0b7a1d;
+    padding: 6px;
+}
+#numOfPeople {
+    color: white;
+    font-size: 25px;
+    margin: 0 5px;
+}
+#persons {
+    color: white;
+    text-align: right;
+    font-size: 25px;
+    margin: 10px;
+}
+#perPersonTotal{
+    font-size: 30px;
+}
